@@ -1,0 +1,4 @@
+Model: RandomForestClassifier
+Hyperparameters: n_estimators=100, random_state=42
+Training Data: processed_churn_data.csv
+Accuracy: (Update after training)
