@@ -1,9 +1,9 @@
 # Customer Churn Prediction Analysis
 
-## 📌 Project Overview
+## Project Overview
 This project aims to predict customer churn using machine learning. It analyzes customer data and determines the likelihood of a customer leaving a service.
 
-## 📁 Folder Structure
+## Folder Structure
 ```
 Customer-Churn-Prediction-Analysis/
 │── data/                # Contains raw & processed data
@@ -16,54 +16,54 @@ Customer-Churn-Prediction-Analysis/
 │── .gitignore           # Files to ignore in Git
 ```
 
-## 🔧 Installation
-### 1️⃣ Clone the repository
+## Installation
+### 1️ Clone the repository
 ```bash
 git clone https://github.com/Sneha73685/Customer-Churn-Prediction-Analysis.git
 cd Customer-Churn-Prediction-Analysis
 ```
 
-### 2️⃣ Install dependencies
+### 2️ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-## 🚀 Usage
-### 1️⃣ Data Preprocessing
+## Usage
+### 1️ Data Preprocessing
 Run the preprocessing script to clean and prepare data:
 ```bash
 python src/preprocess.py
 ```
 
-### 2️⃣ Train the Model
+### 2️ Train the Model
 ```bash
 python src/train_model.py
 ```
 
-### 3️⃣ Make Predictions
+### 3️ Make Predictions
 ```bash
 python src/predict.py
 ```
 
-### 4️⃣ Run the Web App (Flask API)
+### 4️ Run the Web App (Flask API)
 ```bash
 cd app
 python main.py
 ```
 Access the app at `http://127.0.0.1:5000/`
 
-## 📊 Technologies Used
+## Technologies Used
 - Python (Pandas, Scikit-learn, Flask)
 - Machine Learning (Random Forest Classifier)
 - Deployment using Flask API
 
-## 💡 Future Enhancements
+## Future Enhancements
 - Implement a Streamlit UI for better user experience
 - Hyperparameter tuning for improved accuracy
 - Add more features for better predictions
 
-## 🤝 Contributing
+## Contributing
 Feel free to fork and contribute! Open a pull request for review.
 
-## 🏆 Acknowledgments
+## Acknowledgments
 Special thanks to the open-source community for inspiring this project!
